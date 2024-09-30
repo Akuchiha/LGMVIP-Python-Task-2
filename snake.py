@@ -7,12 +7,12 @@ wn = turtle.Screen()
 wn.title("Retro Snake Game")
 wn.bgcolor("#6B8E23")  # Dark olive green, for that retro monochrome look
 wn.setup(width=600, height=600)
-wn.tracer(0)  # Turns off the screen updates for better animation
+wn.tracer(0) 
 
 # Snake Head
 head = turtle.Turtle()
 head.shape("square")
-head.color("black")  # Black color for the snake's head to mimic old Nokia pixel snake
+head.color("black")  # Black color for the snake's head 
 head.shapesize(stretch_wid=1.2, stretch_len=1.2)  # Slightly bigger, more pixelated look
 head.penup()
 head.goto(0, 0)
